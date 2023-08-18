@@ -1,0 +1,9 @@
+global:
+  hosts:
+    domain: ${ELB_DOMAIN}
+  gitlab:
+    host: ${ELB_HOSTNAME}
+  registry:
+    host: registry.${ELB_HOSTNAME}
+  minio:
+    enabled: true
